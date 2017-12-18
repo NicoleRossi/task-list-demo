@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+button + button {
+  margin-left: 10px;
+}
