@@ -14,7 +14,6 @@ export const saveAllTasks = (tasks) => {
   return fetch('http://cfassignment.herokuapp.com/nicolerossi/tasks', {
     method: 'POST',
     headers: {
-      'Accept': 'application/json',
       'Content-Type': 'application/json'
     },
     body: JSON.stringify({ tasks: idAndTextOnly })
